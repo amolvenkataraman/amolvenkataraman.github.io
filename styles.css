@@ -3,8 +3,8 @@
 * {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
-    --accent1: #00d2d3;
-    --accent2: #10ac84;
+    --accent1: #bdc3c7;
+    --accent2: #bdc3c7;
     --accent3: #54a0ff;
     --background: #ecf0f1;
     --dark: #34495e;
@@ -37,7 +37,7 @@ html, body {
     top: 0;
     z-index: -99;
 
-    background: linear-gradient(90deg, #23d5ab, #23a6d5, #e73c7e, #e73c7e);
+    background: linear-gradient(90deg, rgba(26,188,156,1) 0%, rgba(52,152,219,1) 100%);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     animation-play-state: running;
@@ -164,7 +164,7 @@ html, body {
     margin-left: 20px;
     margin-right: 20px;
     position: relative;
-    background-color: #00d2d3;
+    background-color: var(--accent1);
     border-radius: 10px;
     text-align: center;
     margin-bottom: 30px;
@@ -227,7 +227,7 @@ html, body {
 }
 
 .slab {
-    background-color: #00d2d3;
+    background-color: var(--accent1);
     border-radius: 5px;
     margin-bottom: 20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
@@ -265,7 +265,7 @@ html, body {
 }
 
 .contact-method {
-    background-color: #10ac84;
+    background-color: var(--accent2);
     margin: 20px;
     padding: 10px;
     border-radius: 5px;
