@@ -86,7 +86,7 @@ html, body {
 
 .splash-info {
     width: 100vw;
-    padding-top: 14vh;
+    padding-top: 10vh;
     text-align: center;
 }
 
@@ -121,6 +121,9 @@ html, body {
     box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
     border-bottom: 1px solid var(--dark);
+}
+
+.scroll-prompt {
 }
 
 .resume-link {
