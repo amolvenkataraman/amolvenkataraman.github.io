@@ -39,6 +39,10 @@ body.dark-mode * {
     display: none;
 }
 
+.light-mode-toggle, .dark-mode-toggle {
+    margin-top: 2px;
+}
+
 #toggle-dark-mode {
     cursor: pointer;
 }
@@ -62,7 +66,6 @@ html, body {
     padding-right: 20px;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .navbar-fixed {
@@ -81,11 +84,28 @@ html, body {
     width: calc(100vw - 60px);
     border-radius: 30px;
     display: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .navbar-name {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.navbar-links {
+    font-size: 1.1em;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar a, .navbar-links a {
+    text-decoration: none;
+}
+
+#page-content {
+    min-height: 100vh;
+    padding-top: 60px;
+    background-color: var(--background);
 }
 
 .panel {
@@ -355,8 +375,15 @@ html, body {
 
 .footer {
     background-color: var(--accent3);
-    font-size: 14px;
+    font-size: 0.8em;
     padding: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.sticky-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
