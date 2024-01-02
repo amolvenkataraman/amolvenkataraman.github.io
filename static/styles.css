@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
-
-body.light-mode * {
+* {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+    
+    --color-transition-speed: 300ms;
+    -webkit-transition: color var(--color-transition-speed) linear!important;
+    -ms-transition: color var(--color-transition-speed) linear!important;
+    transition: color var(--color-transition-speed) linear!important;
+
+    -webkit-transition: background-color color var(--color-transition-speed) linear!important;
+    -ms-transition: background-color var(--color-transition-speed) linear!important;
+    transition: background-color var(--color-transition-speed) linear!important;
+}
+
+body.light-mode * {
     --accent1: #bdc3c7;
     --accent2: #bdc3c7;
     --accent3: #54a0ff;
@@ -12,14 +23,24 @@ body.light-mode * {
 }
 
 body.dark-mode * {
-    font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
     --accent1: #636e72;
     --accent2: #636e72;
     --accent3: #54a0ff;
     --accent4: #bdc3c7;
     --background: #2d3436;
     color: white;
+}
+
+.light-mode .light-mode-toggle {
+    display: none;
+}
+
+.dark-mode .dark-mode-toggle {
+    display: none;
+}
+
+#toggle-dark-mode {
+    cursor: pointer;
 }
 
 html, body {
