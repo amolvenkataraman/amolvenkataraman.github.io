@@ -25,7 +25,7 @@ body.light-mode * {
 body.dark-mode * {
     --accent1: #636e72;
     --accent2: #636e72;
-    --accent3: #54a0ff;
+    --accent3: #0984e3;
     --accent4: #bdc3c7;
     --background: #2d3436;
     color: white;
