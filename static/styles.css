@@ -108,6 +108,14 @@ html, body {
     background-color: var(--background);
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .panel {
     position: relative;
     width: 100%;
@@ -126,7 +134,7 @@ html, body {
 
     background: linear-gradient(90deg, rgba(26,188,156,1) 0%, rgba(52,152,219,1) 100%);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 10s ease infinite;
     animation-play-state: running;
 }
 
