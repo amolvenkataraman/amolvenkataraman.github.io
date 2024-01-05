@@ -206,6 +206,19 @@ html, body {
     font-weight: bold;
 }
 
+.socials {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.socials a {
+    padding: 10px;
+    margin: 2px;
+}
+
 .social-link {
     text-decoration: none;
     color: black;
@@ -350,6 +363,10 @@ html, body {
 
 .slab-text {
     flex-grow: 1;
+}
+
+.slab-description {
+    line-height: 1.6;
 }
 
 .st-right {
