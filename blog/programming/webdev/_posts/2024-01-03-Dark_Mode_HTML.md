@@ -2,6 +2,7 @@
 layout: blog-post
 title:  "Dark Mode Websites - The Easy Way"
 description: "How to add animated toggleable Dark Mode to your website in under 100 lines of code"
+tags: programming web-dev
 ---
 
 
