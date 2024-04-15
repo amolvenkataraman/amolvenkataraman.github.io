@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog-post
 title:  "How to add animated toggleable Dark Mode to your website in under 100 lines of code"
 ---
 

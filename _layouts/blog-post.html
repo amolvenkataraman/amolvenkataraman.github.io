@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/static/syntax.css" type="text/css" />
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<div class="navbar-fixed">
+    {% include navbar.html %}
+</div>
+
+<div id="page-content">
+    <div class="blog-post">
+        {{ content }}
+    </div>
+
+    <div class="sticky-bottom">
+        {% include footer.html %}
+    </div>
+</div>
+

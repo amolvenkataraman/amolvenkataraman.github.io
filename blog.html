@@ -3,10 +3,18 @@ title: Blog
 layout: page
 ---
 
-<ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-</ul>
+<div class="panel fullheight content content-3">
+    <span class="panel-header">Personal Blog</span>
+    <br>
+    The layout for this page is still a work in progress. Here is a list of all the currently published blogs.
+    <br>
+    The styling for the blog pages has not yet been finalized, and thus there might be issues with how text (especially code and math) is displayed. You have been warned.
+
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
