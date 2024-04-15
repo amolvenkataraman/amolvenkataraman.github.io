@@ -2,33 +2,43 @@
 * {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
-    
-    --color-transition-speed: 300ms;
-    -webkit-transition: color var(--color-transition-speed) linear!important;
-    -ms-transition: color var(--color-transition-speed) linear!important;
-    transition: color var(--color-transition-speed) linear!important;
 
-    -webkit-transition: background-color color var(--color-transition-speed) linear!important;
-    -ms-transition: background-color var(--color-transition-speed) linear!important;
-    transition: background-color var(--color-transition-speed) linear!important;
+    --color-change-speed: 300ms;
+
+    -webkit-transition: color var(--color-change-speed) linear!important;
+    -ms-transition: color var(--color-change-speed) linear!important;
+    transition: color var(--color-change-speed) linear!important;
+
+    -webkit-transition: background-color color var(--color-change-speed) linear!important;
+    -ms-transition: background-color var(--color-change-speed) linear!important;
+    transition: background-color var(--color-change-speed) linear!important;
 }
 
-body.light-mode * {
+body.light-mode {
     --accent1: #bdc3c7;
     --accent2: #bdc3c7;
     --accent3: #54a0ff;
     --accent4: #34495e;
     --background: #ecf0f1;
-    color: black;
+    --text: black;
+    color: var(--text);
 }
 
-body.dark-mode * {
+body.dark-mode {
     --accent1: #636e72;
     --accent2: #636e72;
     --accent3: #0984e3;
     --accent4: #bdc3c7;
     --background: #2d3436;
-    color: white;
+    --text: white;
+    color: var(--text);
+}
+
+#toggle-dark-mode {
+    background-color: var(--accent3);
+    border: 0;
+    outline: none;
+    cursor: pointer;
 }
 
 .light-mode .light-mode-toggle {
@@ -41,10 +51,6 @@ body.dark-mode * {
 
 .light-mode-toggle, .dark-mode-toggle {
     margin-top: 2px;
-}
-
-#toggle-dark-mode {
-    cursor: pointer;
 }
 
 html, body {
@@ -98,8 +104,12 @@ html, body {
     gap: 1.5rem;
 }
 
-.navbar a, .navbar-links a {
+.navbar a, .navbar-links a,
+.navbar a:hover, .navbar-links a:hover,
+.navbar a:visited, .navbar-links a:visited,
+.navbar svg {
     text-decoration: none;
+    color: var(--text);
 }
 
 #page-content {

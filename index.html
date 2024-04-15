@@ -20,14 +20,18 @@
             <a href="/blog.html" target="">Blog</a>
             <a href="/research.html" target="">Research</a>
             <a href="/experience.html" target="">Experience</a>
-            <span id="toggle-dark-mode">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sun-fill light-mode-toggle" viewBox="0 0 16 16">
-                    <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-moon-fill dark-mode-toggle" viewBox="0 0 16 16">
-                    <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278"/>
-                </svg>
-            </span>
+            <button id="toggle-dark-mode" aria-label="Toggle dark mode">
+                <span class="light-mode-toggle">                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sun-fill" viewBox="0 0 16 16">
+                        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+                    </svg>
+                </span>
+                <span class="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278"/>
+                    </svg>
+                </span>
+            </button>
         </div>
     </div>
 
@@ -79,165 +83,17 @@
         <div class="panel fullheight content content-1">
             <span class="panel-header">😀 About Me</span>
             <p class="description">
-                👋 Hi There! Nice seeing you here.
+                👋 Hi There! Nice seeing you here. I am Amol Venkataraman, and I am a Computer Science student at the University of Waterloo.
                 <br><br>
 
-                I am Amol Venkataraman, and I just finished my 2A term studying Computer Science at the University of Waterloo.
-                <br><br>
-
-                👨‍💻 Through work experience, courses, side projects, hackathons, and extracurriculars, I have a deep background in various aspects of Computer Science and programming, like web and mobile app development, data science, AI, system administration, and many more. I have also had the opportunity to work and gain proficiency with many programming languages, like Python, C, C++, Java, Javascript and Ruby.
+                👨‍💻 I am proficient in various different aspects of Computer Science and programming, like full-stack web development, data science, data engineering, AI, system administration, project management, and more. I have also worked with many programming languages, like Python, C, C++, Java, Javascript, Ruby and SQL.
                 <br><br>
                 
                 🖥 I am passionate about technology and believe that it can significantly change the world for the better if used in the correct way. This is one of the key beliefs that I follow in my personal projects, and most of them strive to solve some problem that I face in everyday life.
                 <br><br>
-                
+
                 👨‍💼 I am currently in search of a Fall 2024 co-op (September - December 2024).
             </p>
-            <br>
-            <div class="stuff-i-do">
-                <span class="subtitle">Some Stuff I do</span>
-                
-                <div class="cards">
-                    <div class="card card-hobby">
-                        <img src="assets/vscode.png" alt="">
-                        <div class="card-text">
-                            <div class="card-title">Personal Projects</div>
-                            <div class="card-description">I code for work and I code for play.</div>
-                        </div>
-                    </div>
-                    
-                    <div class="card card-hobby">
-                        <img src="assets/mathclub.png" alt="">
-                        <div class="card-text">
-                            <div class="card-title">Educational Videos</div>
-                            <div class="card-description">Youtube but it isn't a waste of time.</div>
-                        </div>
-                    </div>
-
-                    <div class="card card-hobby">
-                        <img src="assets/135.jpg" alt="">
-                        <div class="card-text">
-                            <div class="card-title">Tutoring</div>
-                            <div class="card-description">Spreading the STEM knowledge.</div>
-                        </div>
-                    </div>
-
-                    <div class="card card-hobby">
-                        <img src="assets/image.jpg" alt="">
-                        <div class="card-text">
-                            <div class="card-title">Photography</div>
-                            <div class="card-description">The only way you can get me to touch grass.</div>
-                        </div>
-                    </div>
-                    
-                    <div class="card card-hobby">
-                        <img src="assets/plane.jpg" alt="">
-                        <div class="card-text">
-                            <div class="card-title">Travel</div>
-                            <div class="card-description">Countries. Gotta visit them all.</div>
-                        </div>
-                    </div>
-
-                    <div class="card card-hobby">
-                        <img src="assets/books.jpg" alt="">
-                        <div class="card-text">
-                            <div class="card-title">Reading</div>
-                            <div class="card-description">Nothing can beat the smell of a book.</div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="panel fullheight content content-2">
-            <span class="panel-header">👨‍💻 Projects and Experience</span>
-            <br><br>
-            <div class="projects">
-                <span class="subtitle">Some Projects that I have worked on recently</span>
-                
-                <div class="cards">
-                    <a class="card card-project">
-                        <img src="assets/docket.png" alt="Screenshot of Docket">
-                        <div class="card-text">
-                            <div class="card-title">Docket</div>
-                            <div class="card-description">Cloud-based calendar that gets events from other websites and shows them in one place.</div>
-                        </div>
-                    </a>
-
-                    <a class="card card-project" href="https://devpost.com/software/imgexplorer", target="blank">
-                        <img src="assets/pikpic.png" alt="Screenshot of Pikpic">
-                        <div class="card-text">
-                            <div class="card-title">
-                                Pikpic
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                                </svg>
-                            </div>
-                            <div class="card-description">Self-hosted photo gallery app with AI-based image indexing and search.</div>
-                        </div>
-                    </a>
-
-                    <a class="card card-project">
-                        <img src="assets/singularity.png" alt="Screenshot of Singularity">
-                        <div class="card-text">
-                            <div class="card-title">Singularity</div>
-                            <div class="card-description">An automated downloader script for content from Google Classroom and Brightspace.</div>
-                        </div>
-                    </a>
-
-                    <a class="card card-project" href="https://devpost.com/software/vidshare", target="blank">
-                        <img src="assets/vidscribe.jpg" alt="Screenshot of VidScribe">
-                        <div class="card-text">
-                            <div class="card-title">
-                                VidScribe
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                                </svg>
-                            </div>
-                            <div class="card-description">A video player that lets you take notes while watching videos.</div>
-                        </div>
-                    </a>
-                    
-                    <a class="card card-project" href="https://devpost.com/software/connect-18ik4d", target="blank">
-                        <img src="assets/connect.jpg" alt="Screenshot of Connect app">
-                        <div class="card-text">
-                            <div class="card-title">
-                                Connect
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                                </svg>
-                            </div>
-                            <div class="card-description">A mobile app to quickly share contact details with people you meet.</div>
-                        </div>
-                    </a>
-
-                    <a class="card card-project">
-                        <img src="assets/airgesture.png" alt="Picture of an AirGesture demo">
-                        <div class="card-text">
-                            <div class="card-title">AirGesture</div>
-                            <div class="card-description">Gesture-based input for computers with the potential to aid the differently abled.</div>
-                        </div>
-                    </a>
-                    
-                    <a class="card card-project" href="https://github.com/amolvenkataraman/traceme", target="blank">
-                        <img src="assets/traceme.png" alt="Screenshot of TraceMe">
-                        <div class="card-text">
-                            <div class="card-title">
-                                TraceMe
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                                </svg>
-                            </div>
-                            <div class="card-description">An app that lets you visually represent your travels on a map. (Updated version coming soon...)</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
         </div>
 
         <div class="panel fullheight content content-5">
