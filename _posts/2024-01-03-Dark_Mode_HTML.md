@@ -216,5 +216,3 @@ After adding this and refreshing the page, we can notice that pressing the toggl
 All the code written here is inspired by what I did for my personal website, and you can see it's code to learn more:
 - Website link: [https://amolvenkataraman.github.io/](https://amolvenkataraman.github.io/)
 - Source code: [https://github.com/amolvenkataraman/amolvenkataraman.github.io](https://github.com/amolvenkataraman/amolvenkataraman.github.io)
-
-<br><br>
