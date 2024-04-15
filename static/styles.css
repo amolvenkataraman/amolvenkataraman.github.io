@@ -64,6 +64,10 @@ html, body {
     width: 0px;
 }
 
+a, a:hover, a:visited {
+    color: var(--text);
+}
+
 .navbar {
     height: 60px;
     background-color: var(--accent3);
@@ -189,7 +193,7 @@ html, body {
     } */
 
     body {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
@@ -231,7 +235,7 @@ html, body {
 
 .social-link {
     text-decoration: none;
-    color: black;
+    color: var(--text);
 }
 
 #pull-tab {
@@ -251,11 +255,11 @@ html, body {
 
 .content {
     background-color: var(--background);
-    padding: 3em;
+    padding: 2em;
 }
 
 .panel-header {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -264,11 +268,15 @@ html, body {
 }
 
 .description {
-    font-size: 1.1em;
+    font-size: 1.2em;
+}
+
+.overview {
+    font-size: 1em;
 }
 
 .subtitle {
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
@@ -300,7 +308,7 @@ html, body {
 }
 
 .card-title {
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -334,13 +342,13 @@ html, body {
 }
 
 .card-course {
-    width: 225px;
-    height: 225px;
+    width: 180px;
+    height: 180px;
 
 }
 
 .card-course .card-title {
-    font-size: 1.2em;    
+    font-size: 1.1em;    
 }
 
 .card-course .card-text {

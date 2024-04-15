@@ -3,9 +3,10 @@ title: Blog
 layout: page
 ---
 
-<div class="centered">
-    <h2>Work in progress</h2>
-    <br><br>
-    I am working on moving over my blog to a custom site. <br>
-    This page will be updated soon to show blog posts.
-</div>
+<ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+</ul>
