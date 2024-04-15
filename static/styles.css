@@ -60,8 +60,24 @@ html, body {
     scroll-behavior: smooth;
 }
 
+/* width */
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--bs-light);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 a, a:hover, a:visited {

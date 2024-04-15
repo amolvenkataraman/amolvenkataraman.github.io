@@ -1,9 +1,9 @@
 ---
 layout: blog-post
-title:  "How to add animated toggleable Dark Mode to your website in under 100 lines of code"
+title:  "Dark Mode Websites - The Easy Way"
+description: "How to add animated toggleable Dark Mode to your website in under 100 lines of code"
 ---
 
-# How to add animated toggleable Dark Mode to your website in under 100 lines of code
 
 # Introduction
 Many of us have been there. You work hard to make a website, but even after all the effort you put into tweaking the CSS to make sure that everything looked perfect, there is always that one person who is unimpressed because you didn't add dark mode support.
