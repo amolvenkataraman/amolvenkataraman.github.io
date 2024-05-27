@@ -14,6 +14,10 @@
     transition: background-color var(--color-change-speed) linear!important;
 }
 
+code, code * {
+    font-family: monospace!important;
+}
+
 body.light-mode {
     --accent1: #bdc3c7;
     --accent2: #bdc3c7;
@@ -484,8 +488,4 @@ a, a:hover, a:visited {
         width: 100%!important;
         max-width: none!important;
     }
-}
-
-code, code * {
-    font-family: monospace!important;
 }

@@ -6,6 +6,10 @@ body.dark-mode {
     --code-bg: #576574
 }
 
+.highlight {
+    tab-size: 4;
+}
+
 .language-plaintext { background: var(--code-bg); padding: 2px; border-radius: 3px; }
 
 .highlight  { background: var(--code-bg); padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; border-radius: 10px; }
