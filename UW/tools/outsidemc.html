@@ -72,7 +72,7 @@ permalink: /UW/tools/outsidemc
 
     <script>
         // Use a CORS proxy because the browser blocks the request otherwise
-        apiUrl = `https://corsproxy.io/?${encodeURIComponent('https://weather.uwaterloo.ca/waterloo_weather_station_data.xml')}`;
+        apiUrl = `http://hfcs.csclub.uwaterloo.ca:28312/waterloo_weather_station_data.xml`;
 
         r = new XMLHttpRequest();
         r.open("GET", apiUrl);
