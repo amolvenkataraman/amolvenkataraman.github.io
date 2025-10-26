@@ -15,6 +15,7 @@ permalink: /
 </div>
 
 <div id="wrapper">
+    <div style="position:fixed;top:0;left:0;width:100%;z-index:9999;background-color:#222;color:#fff;text-align:center;padding:10px 0;font-family:sans-serif;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">🚧 &nbsp; I'm currently working on revamping my website. Some things might be broken / empty for a few days.</div>
     <div id="splash" class="panel fullheight">
         <div class="splash-info">
             <img src="assets/Amol.jpg" alt="Profile Picture" class="profile-img">
@@ -51,7 +52,7 @@ permalink: /
         </div>
     </div>
     <div id="pull-tab" class="panel">
-        <div class="scroll-down-icon">
+        <div class="scroll-down-icon" onclick="window.scroll(0, window.innerHeight);">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16" aria-labelledby="title4">
                 <title id="title4" lang="en">Scroll Down</title>
                 <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
@@ -151,7 +152,7 @@ permalink: /
     function update_animation_navbar() {
         var splst = document.getElementById('splash').style;
         var navst = document.querySelector('.navbar').style;
-        if (window.scrollY <= window.innerHeight) {
+        if (window.scrollY < window.innerHeight) {
             splst.filter = `blur(${window.scrollY / 50}px)`;
             splst.animationPlayState = 'running';
             navst.display = 'none';
